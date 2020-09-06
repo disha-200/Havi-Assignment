@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            SIGN UP
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form method="POST" action="index.php">
+        <div class="container">
+            <h2>SIGNUP</h2>
+            
+            <label>Name</label><br>
+            <input name="name" type="text" placeholder="NAME" required><br><br>
+
+            <label>Email</label><br>
+            <input name="email" type="text" placeholder="EMAIL" required><br><br>
+
+            <label>Password</label><br>
+            <input name="password" type="text" placeholder="PASSWORD" required><br><br>
+
+            <label>Confirm Password</label><br>
+            <input type="text" placeholder="CONFIRM PASSWORD" required><br><br>
+            
+            <label>Phone Number</label><br>
+            <input name="ph" type="text" placeholder="PHONE NUMBER" required><br><br>
+
+            <label>Gender</label><br>
+            <input name="gender" type="radio" value="Male" required> Male&nbsp;&nbsp;
+            <input name="gender" type="radio" value="Female" required> Female &nbsp;&nbsp;
+            <input name="gender" type="radio" value="Other" required> Other &nbsp;&nbsp; <br><br>
+
+            <label>DOB</label><br>
+            <input name="dob" type="date" placeholder="DOB" required><br><br>
+        
+            <button type="submit" name="submit">SIGNUP</button><br><br>
+        </form>
+            <a href="login.php">ALREADY A USER</a>&nbsp;&nbsp;
+            <a href="admin.php">ADMIN</a>
+        </div>
+    </body>
+</html>
